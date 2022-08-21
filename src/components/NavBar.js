@@ -1,6 +1,7 @@
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import {useRef} from "react";
 import CartWidget from "./CartWidget";
+import '../css/titulo.css'
 
 const NavBar = () => {
 
@@ -51,7 +52,7 @@ const NavBar = () => {
           </ul>
         </div>
         <NavLink to="/">
-          <a className="btn btn-ghost normal-case text-xl">TECNOLOGIAELECTRO</a>
+          <a href="/" className="btn btn-ghost normal-case text-xl titulo">TECNOLOGIAELECTRO</a>
         </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -70,11 +71,11 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <div className="form-control flex flex-row">
+      <div className="form-control flex flex-row entrada">
           <input
             type="text"
             id="OrderId"
-            placeholder="Search order (Example: gXE9yCbYfREgQpLSJEIQ)"
+            placeholder="Buscar (TAK5dwerxlNtN2HX3EFY)"
             className="input input-bordered w-96"
             ref={inputRef}
           />

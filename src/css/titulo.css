@@ -1,0 +1,11 @@
+@media only screen and (max-width: 750px) {
+    .titulo {
+      display: none;
+    }
+  }
+@media only screen and (max-width: 750px) {
+    .entrada {
+      position: absolute;
+      width: 50px;
+    }
+  }
