@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import CartItem from "../components/CartItem"
 import { useParams, Link } from "react-router-dom";
-import { getOrderById } from '../index.js';
+import { getOrderById } from '../firebase';
 import PropagateLoader from "react-spinners/ClipLoader";
 
 

@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Itemlist from "../components/Itemlist";
-import { getItems, getItemsFiltered } from "../index";
+import { getItems, getItemsFiltered } from "../firebase";
 import "../css/ItemListContainer.css";
 
 const ItemListContainer = () => {

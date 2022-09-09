@@ -14,19 +14,12 @@ const ItemDetail = (props) => {
     addItem({ ...props.producto, quantity: n });
   }
 
-  function cambiarbtn() {
-    setBtn(
-      <button class="btn btn-primary" onClick={cambiarbtn}>
-        Agregar
-      </button>
-    );
-  }
   return (
     <>
       <div className="contenedor ">
         <div class="hero min-h-screen bg-base-100 itemdetail justify-between">
           <div class="hero-content flex-col lg:flex-row ajuste">
-            <img src={imageId} class="max-w-sm rounded-lg shadow-2xl img" />
+            <img src={imageId} class="max-w-sm rounded-lg shadow-2xl img" alt="imagen"/>
             <div>
               <h1 class="text-4xl font-bold">{title}</h1>
               <p class="py-12">{description}</p>
